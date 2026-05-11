@@ -1,0 +1,37 @@
+# .gitignore for FINAL_APP root
+# Node.js
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# VSCode
+.vscode/
+
+# OS
+Thumbs.db
+
+# Logs
+*.log
+
+# Misc
+*.safetensors
+*.sqlite3
+*.db
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+
+# Ignore uploads and temp files
+backend/scripts/temp_uploads/
